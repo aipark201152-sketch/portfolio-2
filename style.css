@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: Arial, sans-serif;
+  background-color: #eaf2ff;
+  color: #1e293b;
+}
+.main-header {
+  background-color: #1e3a5f;
+  color: white;
+  text-align: center;
+  padding: 25px;
+}
+
+.main-header h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.main-header p {
+  color: #bfdbfe;
+  font-size: 16px;
+}
+.portfolio-container {
+  display: flex;
+  min-height: 75vh;
+}
+
+.sidebar {
+  width: 230px;
+  background-color: #dbeafe;
+  padding: 20px;
+}
+
+.sidebar h2 {
+  font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  color: #1e3a5f;
+}
+
+.sidebar a {
+  display: block;
+  color: #1e40af;
+  text-decoration: none;
+  padding: 12px;
+  margin-bottom: 8px;
+  background-color: white;
+  border-radius: 6px;
+}
+
+.sidebar a:hover {
+  background-color: #93c5fd;
+  color: #172554;
+}
+
+.content-area {
+  flex: 1;
+  padding: 20px;
+  min-width: 0;
+}
+
+.iframe-wrapper {
+  width: 100%;
+  height: 600px;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #cbd5e1;
+  background-color: white;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.main-footer {
+  background-color: #1e3a5f;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+}
